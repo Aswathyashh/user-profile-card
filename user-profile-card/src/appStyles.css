@@ -14,7 +14,7 @@ body, html {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(to right, #5c5252, #5c5252); /* Light gray background gradient */
+    background: linear-gradient(to right, #5c5252, #5c5252);
     transition: background 0.3s ease-in-out;
 }
 
@@ -25,18 +25,18 @@ body, html {
     background: #ffffff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
-    border: 2px solid #ddd; /* Adding a border */
-    transition: transform 0.3s, box-shadow 0.3s; /* Adding transition for hover effect */
+    border: 2px solid #ddd;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .user-profile:hover {
-    transform: scale(1.05); /* Scale up the card slightly on hover */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a deeper shadow on hover */
-    border-color: #b0b0b0; /* Change border color on hover */
+    transform: scale(1.04);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-color: #b0b0b0;
 }
 
 .gradient {
-    background-image: linear-gradient(#b0b0b0, #909090); /* Gray gradient for card header */
+    background-image: linear-gradient(#b0b0b0, #909090);
     height: 125px;
     border-radius: 4px 4px 0 0;
 }
